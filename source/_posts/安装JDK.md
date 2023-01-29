@@ -11,7 +11,7 @@ tags:
 
 为了保证您可以顺利使用这篇文章，此处先为您介绍一些本文可能用到的表述方式，您也可以选择先行阅读文章，遇到不确定的地方再回来查看其含义。
 
-1. 对于所有的 **shell** 命令，本文将使用符号 `>` 表示一条 shell 指令的开始，通常在终端中显示为 `$` 或 `#` 等字符。
+1. 对于所有的交互型 **shell** 命令，本文将使用符号 `>` 表示一条 shell 指令的开始，通常在终端中显示为 `$` 或 `#` 等字符。
 2. 对于所有的 **shell** 命令，文章内的变量均采用 `$$variable` 的格式。
 3. 对于所有的 **shell** 命令，如果该内容是**根据情况可选**的（即选填变量），那么将会用 `[expression]` 进行表述。
 4. 对于所有的 **shell** 命令，如果该内容是**根据情况调整数据**的，那么将会用 `<expression>` 进行表述。
@@ -84,25 +84,16 @@ $JAVA_HOME/bin
 
 ### Windows
 
-您需要进行以下步骤以完成 `JAVA_HOME` 的配置。
+> 该操作容易出现问题，请先在 PowerShell 或 Command Prompt 中运行 `echo %Path%` ，并将输出内容保存好。
 
-> 以下内容图片均以 Windows 11 系统作为展示。
+首先请使用管理员身份运行 **PowerShell** 或 **Command Prompt** ，并运行如下指令：
 
-1. 使用鼠标右击**此电脑**，并在弹出的画面中点击**属性**选项。
-   ![image-20230129170845823](https://dist.cq.vorbote.cn/images/typora-images/image-20230129170845823.png)
-2. 在弹出的界面中点击**高级系统设置**。
-   ![image-20230129171127239](https://dist.cq.vorbote.cn/images/typora-images/image-20230129171127239.png)
-3. 在弹出的界面中点击**环境变量设置**。
-   ![image-20230129172304833](https://dist.cq.vorbote.cn/images/typora-images/image-20230129172304833.png)
-4. 在弹出的界面中点击任意一个**新增**。（上面的表格是**用户环境变量**，下面的表格是**系统环境变量**，如果需要让所有人访问则需要添加在**系统环境变量**）
-   ![image-20230129172527895](https://dist.cq.vorbote.cn/images/typora-images/image-20230129172527895.png)
-5. 在弹出的界面中输入对应的**变量名**及**变量值**。完成填写后点击**确认**以保存设置。
-   ![image-20230129172935189](https://dist.cq.vorbote.cn/images/typora-images/image-20230129172935189.png)
+```powershell
+> setx /m JAVA_HOME <$$path_to_javahome>
+> setx /m Path "%Path%;%JAVA_HOME%\bin"
+```
 
-6. 双击 `Path` ，请注意：一定要在第4步中点击的那一栏中寻找 `Path` ，并将如下文本添加到最末尾。
-   ```shell
-   %JAVA_HOME%\bin
-   ```
+或者您也可以使用图形化的方式进行操作。
 
 # 验证安装
 
