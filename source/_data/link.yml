@@ -1,0 +1,7 @@
+- class_name: 友情链接
+  class_desc: 编程学习平台
+  link_list:
+    - name: 哔哩哔哩
+      link: https://www.bilibili.com
+      avatar: https://cdn.worldvectorlogo.com/logos/bilibili-logo-blue.svg
+      descr: 国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。
