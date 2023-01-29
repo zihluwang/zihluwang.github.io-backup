@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 王子路的主页
-subtitle: ''
-description: ''
+title: 编程精灵
+subtitle: Programming Elf
+description: 编程精灵是一个专注于软件开发的中文在线博客，通过分享个人编程经验和心得，为广大开发者提供有趣的信息和见解。
 keywords: [软件开发, 编程, Java, Go, Python]
 author: Zihlu Wang
 language: zh-CN
