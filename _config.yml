@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Zihlu Wang's Development Home Page
 subtitle: ''
 description: ''
-keywords: [软件开发, 编程, Java, Go, Python, ]
+keywords: [软件开发, 编程, Java, Go, Python]
 author: Zihlu Wang
 language: zh-CN
 timezone: Asia/Macau
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://zihluwang.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,4 +104,4 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:zihluwang/zihluwang.github.io.git
-  branch: docs
+  branch: deploy
