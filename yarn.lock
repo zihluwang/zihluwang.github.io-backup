@@ -298,6 +298,11 @@ data-urls@^3.0.2:
     whatwg-mimetype "^3.0.0"
     whatwg-url "^11.0.0"
 
+dayjs@^1.11.2:
+  version "1.11.7"
+  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
+  integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
+
 debug@2.6.9:
   version "2.6.9"
   resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -703,6 +708,16 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
+hexo-theme-aomori@^1.36.0:
+  version "1.36.0"
+  resolved "https://registry.npmjs.org/hexo-theme-aomori/-/hexo-theme-aomori-1.36.0.tgz#efec4bb16790ac2078b4c934b92554e355097f9e"
+  integrity sha512-O5kPMt/fgabms5Loew1ZJAYkTf5OchpQTjsAyzP/rGXRcrZN59z2t+6Mojv5BPWnZI16D1ilJgsNax3aoMx/Mg==
+  dependencies:
+    dayjs "^1.11.2"
+    jquery "^3.6.0"
+    jquery-viewer "^1.0.1"
+    viewerjs "^1.10.5"
+
 hexo-theme-landscape@^0.0.3:
   version "0.0.3"
   resolved "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz#87d1f4d613da9be5245dad0d4b80479eab70d386"
@@ -889,6 +904,16 @@ jake@^10.8.5:
     chalk "^4.0.2"
     filelist "^1.0.1"
     minimatch "^3.0.4"
+
+jquery-viewer@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/jquery-viewer/-/jquery-viewer-1.0.1.tgz#e85ca0fbfc09aa4670b87ff82a9a59b042b02f55"
+  integrity sha512-d7qd/9zKCcsxgKDDt9nC2Jdbr2SdXcJkQVzQDxj/H7ZkXzS+scxt2KxGWQlsBthiRmvv9aCPt7kPnGsFA2ds/Q==
+
+jquery@^3.6.0:
+  version "3.6.3"
+  resolved "https://registry.npmjs.org/jquery/-/jquery-3.6.3.tgz#23ed2ffed8a19e048814f13391a19afcdba160e6"
+  integrity sha512-bZ5Sy3YzKo9Fyc8wH2iIQK4JImJ6R0GWI9kL1/k7Z91ZBNgkRXE6U0JfHIizZbort8ZunhSI3jw9I6253ahKfg==
 
 js-yaml-js-types@^1.0.0:
   version "1.0.1"
@@ -1516,6 +1541,11 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
+
+viewerjs@^1.10.5:
+  version "1.11.2"
+  resolved "https://registry.npmjs.org/viewerjs/-/viewerjs-1.11.2.tgz#18eb326188225461f85d1e6430f43ba90623b907"
+  integrity sha512-z7N9R91ORhtLvOUxN7GoIl+MFVVMbtWNB1T2UmTKuMlzc4EevS+/bletZcIwDf8RIUzk2CFMdleQzcsjsfLl+A==
 
 w3c-xmlserializer@^4.0.0:
   version "4.0.0"
