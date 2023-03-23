@@ -577,7 +577,7 @@ aside:
       link: https://github.com/zihluwang
   card_announcement:
     enable: true
-    content: 欢迎大家查看我的博客！
+    content: <a href="https://t.me/+4o6OAPrTrJ1lZjYx">点击链接加入 Telegram 群组</a>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
