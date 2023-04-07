@@ -19,7 +19,7 @@ tags: Java, JavaSE
 |  Discussion | amber dash dev at openjdk dot org                      |
 |      Effort | M                                                      |
 |    Duration | M                                                      |
-|  Reviewd by | Alex Buckley, Brian Goetz, Maurizio Cimadamore         |
+| Reviewed by | Alex Buckley, Brian Goetz, Maurizio Cimadamore         |
 | Endorsed by | Brian Goetz                                            |
 |     Created | 2021/09/17 13:41                                       |
 |     Updated | 2023/04/06 21:41                                       |
