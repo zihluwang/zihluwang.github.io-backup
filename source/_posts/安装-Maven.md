@@ -1,10 +1,7 @@
 ---
 title: 安装 Maven
 date: 2023-01-30 02:27:46
-tags:
-- Java
-- Dev Tools
-- Build Tools
+tags: [Java, Dev Tools, SDK]
 ---
 
 Apache Maven ，是一个软件（特别是 Java 软件）项目管理及自动构建工具，由 Apache 软件基金会所提供。 Maven 也可被用于构建和管理各种项目，例如 C# ， Ruby ， Scala 和其他语言编写的项目。 Maven 曾是 Jakarta 项目的子项目，现为由 Apache 软件基金会主持的独立 Apache 项目。
@@ -25,7 +22,7 @@ Maven 解决了软件构建的两方面问题：一是软件是如何构建的�
 Apache Maven 最新版对于系统的要求如下：
 
 - JDK：需要在 1.7 版本以上；
-- 磁盘空间：需要约10 MiB 的空间安装 Maven 工具链，本地存储库的空间大小会随时变化，但是期望至少拥有 500 MiB 的磁盘空间。
+- 磁盘空间：需要约 10 MiB 的空间安装 Maven 工具链，本地存储库的空间大小会随时变化，但是期望至少拥有 500 MiB 的磁盘空间。
 
 # 下载 Apache Maven
 
@@ -42,7 +39,7 @@ Apache Maven 最新版对于系统的要求如下：
 根据 Linux 官方推荐，请创建文件 `/etc/profile.d/maven.sh` 并在其中填写如下内容：
 
 ```shell
-export M2_HOME=<$$path_to_maven_homedir>
+export M2_HOME=<path/to/maven/homedir>
 export PATH=$PATH:$M2_HOME/bin
 ```
 
@@ -51,7 +48,7 @@ export PATH=$PATH:$M2_HOME/bin
 根据 Apple 对 macOS 操作系统的设计，你需要首先前往 `/etc/zshrc` 中添加如下内容：
 
 ```shell
-export M2_HOME=<$$path_to_maven_homedir>
+export M2_HOME=<path/to/maven/homedir>
 ```
 
 接下来创建文件 `/etc/paths.d/maven` 并向其中添加如下内容：
@@ -77,12 +74,12 @@ $M2_HOME/bin
 
 完成安装后，在终端或 PowerShell 内运行指令 `mvn -v` ，并看到如下格式的输出，则表示安装成功。
 
-```shell
-Apache Maven $$some_version ($$maven_checksum)
-Maven home: $$path_to_maven_homedir
-Java version: $$your_java_version, vendor: $$java_builder, runtime: $$java_home
-Default locale: $$your_system_locale, platform encoding: $$your_platform_encoding
-OS name: "$$os_name", version: "$$os_version", arch: "$$os_arch", family: "$$os_family"
+```text
+Apache Maven $maven_version ($maven_checksum)
+Maven home: $path/to/maven/homedir
+Java version: $your_java_version, vendor: $java_builder, runtime: $java_home
+Default locale: $your_system_locale, platform encoding: $your_platform_encoding
+OS name: "$os_name", version: "$os_version", arch: "$os_arch", family: "$os_family"
 ```
 
 # 额外配置

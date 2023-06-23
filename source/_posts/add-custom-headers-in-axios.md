@@ -1,7 +1,7 @@
 ---
 title: 在 Axios 中添加自定义请求头
 date: 2023-03-23 22:12:51
-tags: vue, 前端, typescript, axios, upgrade
+tags: [vue, 前端, typescript, axios, upgrade]
 ---
 
 今天开始写毕业设计的前端了，然后开始封装 Axios，代码如下：

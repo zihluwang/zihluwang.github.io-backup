@@ -1,7 +1,7 @@
 ---
 title: JDK-21 新功能预览[JEP430] String Template
 date: 2023-04-07 21:14:18
-tags: Java, JavaSE
+tags: [Java, JavaSE]
 ---
 
 # JDK-21 新功能预览 - 模板字符串 (\[JEP430\])

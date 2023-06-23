@@ -4,7 +4,7 @@ date: 2023-04-02 18:30:42
 copyright: GitHub@xxxzl-JerryM
 copyright_author: Github@xxxzl-JerryM
 copyright_href: https://github.com/xxxzl-JerryM
-tags: Frontend, Npm Registry, Private Npm Registry
+tags: [Frontend, Npm Registry, Private Npm Registry]
 ---
 
 # 环境定义

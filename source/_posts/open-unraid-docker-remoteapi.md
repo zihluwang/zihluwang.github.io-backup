@@ -1,7 +1,7 @@
 ---
 title: 打开 unRaid 系统中 Docker 的 Remote API
 date: 2023-03-22 20:34:18
-tags: O&M, 运维
+tags: [O&M, 运维]
 ---
 
 今天需要将一个 Java 项目部署到 Docker 上，奈何本地 Docker 是运行在 unRaid 系统上的。

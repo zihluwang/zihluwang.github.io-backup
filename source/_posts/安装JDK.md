@@ -1,10 +1,7 @@
 ---
 title: 安装 JDK
 date: 2023-01-29 16:08:21
-tags: 
-- Java
-- Dev Tools
-- SDK
+tags: [Java, Dev Tools, SDK]
 ---
 
 # 本文章的一些特殊文法表述
