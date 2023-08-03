@@ -20,6 +20,9 @@ dependencies:
   hexo-generator-index:
     specifier: ^3.0.0
     version: 3.0.0
+  hexo-generator-seo-friendly-sitemap:
+    specifier: ^0.2.1
+    version: registry.npmjs.org/hexo-generator-seo-friendly-sitemap@0.2.1
   hexo-generator-tag:
     specifier: ^2.0.0
     version: 2.0.0
@@ -1904,6 +1907,12 @@ packages:
     version: 1.0.2
     dev: false
 
+  registry.npmjs.org/bluebird@3.5.4:
+    resolution: {integrity: sha512-FG+nFEZChJrbQ9tIccIfZJBz3J7mLrAhxakAbnrJWn8d7aKOC+LWifa0G+p4ZqKp4y13T7juYvdhq9NzKdsrjw==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/bluebird/-/bluebird-3.5.4.tgz}
+    name: bluebird
+    version: 3.5.4
+    dev: false
+
   registry.npmjs.org/brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz}
     name: brace-expansion
@@ -1931,6 +1940,13 @@ packages:
         optional: true
     dependencies:
       ms: registry.npmjs.org/ms@2.1.2
+    dev: false
+
+  registry.npmjs.org/ejs@2.6.1:
+    resolution: {integrity: sha512-0xy4A/twfrRCnkhfk8ErDi5DqdAsAqeGxht4xkCUrsvhhbQNs7E+4jV0CN7+NKIY0aHE72+XvqtBIXzD31ZbXQ==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/ejs/-/ejs-2.6.1.tgz}
+    name: ejs
+    version: 2.6.1
+    engines: {node: '>=0.10.0'}
     dev: false
 
   registry.npmjs.org/fs.realpath@1.0.0:
@@ -1962,6 +1978,20 @@ packages:
       path-is-absolute: registry.npmjs.org/path-is-absolute@1.0.1
     dev: false
 
+  registry.npmjs.org/hexo-generator-seo-friendly-sitemap@0.2.1:
+    resolution: {integrity: sha512-DtEulX/7U2X4bRLztb6cDtHEvtwhEPSaL6shaxNtk2oPljJlnep9vFGGlF3KvTD1XADxSOtvVHd3RKWZEXl9WA==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/hexo-generator-seo-friendly-sitemap/-/hexo-generator-seo-friendly-sitemap-0.2.1.tgz}
+    name: hexo-generator-seo-friendly-sitemap
+    version: 0.2.1
+    engines: {node: '>=8.0.0'}
+    dependencies:
+      bluebird: registry.npmjs.org/bluebird@3.5.4
+      ejs: registry.npmjs.org/ejs@2.6.1
+      lodash: registry.npmjs.org/lodash@4.17.12
+      moment: registry.npmjs.org/moment@2.24.0
+      pretty-data: registry.npmjs.org/pretty-data@0.40.0
+      url-join: registry.npmjs.org/url-join@4.0.0
+    dev: false
+
   registry.npmjs.org/hexo-renderer-stylus@3.0.0:
     resolution: {integrity: sha512-wgKOcjUzq1i4Y70luoyYDbh91QeQcDzJO+v1598LgY+IdREFAm+vy1MWtl/TZsVXyPaEtsULNi3Vi22hdsPUSA==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-3.0.0.tgz}
     name: hexo-renderer-stylus
@@ -1989,12 +2019,24 @@ packages:
     version: 2.0.4
     dev: false
 
+  registry.npmjs.org/lodash@4.17.12:
+    resolution: {integrity: sha512-+CiwtLnsJhX03p20mwXuvhoebatoh5B3tt+VvYlrPgZC1g36y+RRbkufX95Xa+X4I59aWEacDFYwnJZiyBh9gA==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/lodash/-/lodash-4.17.12.tgz}
+    name: lodash
+    version: 4.17.12
+    dev: false
+
   registry.npmjs.org/minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz}
     name: minimatch
     version: 3.1.2
     dependencies:
       brace-expansion: registry.npmjs.org/brace-expansion@1.1.11
+    dev: false
+
+  registry.npmjs.org/moment@2.24.0:
+    resolution: {integrity: sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/moment/-/moment-2.24.0.tgz}
+    name: moment
+    version: 2.24.0
     dev: false
 
   registry.npmjs.org/ms@2.1.2:
@@ -2027,6 +2069,12 @@ packages:
     name: path-is-absolute
     version: 1.0.1
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  registry.npmjs.org/pretty-data@0.40.0:
+    resolution: {integrity: sha512-YFLnEdDEDnkt/GEhet5CYZHCvALw6+Elyb/tp8kQG03ZSIuzeaDWpZYndCXwgqu4NAjh1PI534dhDS1mHarRnQ==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/pretty-data/-/pretty-data-0.40.0.tgz}
+    name: pretty-data
+    version: 0.40.0
     dev: false
 
   registry.npmjs.org/sax@1.2.4:
@@ -2064,6 +2112,12 @@ packages:
       source-map: registry.npmjs.org/source-map@0.7.4
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  registry.npmjs.org/url-join@4.0.0:
+    resolution: {integrity: sha512-EGXjXJZhIHiQMK2pQukuFcL303nskqIRzWvPvV5O8miOfwoUb9G+a/Cld60kUyeaybEI94wvVClT10DtfeAExA==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/url-join/-/url-join-4.0.0.tgz}
+    name: url-join
+    version: 4.0.0
     dev: false
 
   registry.npmjs.org/wrappy@1.0.2:
