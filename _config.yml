@@ -10,10 +10,12 @@ keywords: [软件开发, 编程, Java, Go, Python]
 author: Zihlu Wang
 language: zh-CN
 timezone: Asia/Macau
+sitemap:
+  path:  sitemap.xml
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://zihluwang.github.io
+url: https://zihlu.wang
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
